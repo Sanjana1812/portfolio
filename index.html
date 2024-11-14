@@ -5,65 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padma Sanjana - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Padma Sanjana</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="profile-header">
+        <img src="assets/profile-pic.png" alt="Padma Sanjana" class="profile-pic">
+        <h1 class="profile-name">Padma Sanjana</h1>
+        <p class="profile-subtitle">Aspiring Software Engineer</p>
+    </header>
 
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="assets/profile-pic.png" alt="Padma Sanjana">
-        </div>
-        <div class="section__text">
-            <p>Hello, I'm</p>
-            <h1 class="title">Padma Sanjana</h1>
-            <p class="subtitle">Aspiring Software Engineer</p>
-            <div class="btn-container">
-                <a class="btn" href="assets/resume.pdf" target="_blank">Resume</a>
-                <a class="btn" href="#contact">Contact Info</a>
-            </div>
-        </div>
-    </section>
+    <main>
+        <section class="card" id="about-card">
+            <h2>About Me</h2>
+            <p>I am an aspiring software engineer with a strong foundation in computer networks, databases, and web development. I am passionate about contributing to impactful projects and continuous learning.</p>
+        </section>
 
-    <section id="about">
-        <h1>About Me</h1>
-        <p>I am an aspiring software engineer with a strong foundation in computer networks, databases, and web development. I am passionate about contributing to impactful projects and continuous learning.</p>
-    </section>
+        <section class="card" id="skills-card">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python, HTML, CSS, JavaScript</li>
+                <li>MySQL, Operating Systems</li>
+                <li>Communication, Teamwork</li>
+            </ul>
+        </section>
 
-    <section id="skills">
-        <h1>Skills</h1>
-        <ul>
-            <li>Python, HTML, CSS, JavaScript</li>
-            <li>MySQL, Operating Systems</li>
-            <li>Communication, Teamwork</li>
-        </ul>
-    </section>
+        <section class="card" id="projects-card">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Automatic Student Attendance System:</strong> A contactless attendance system using Arduino Uno and RFID technology.</li>
+                <li><strong>Product Store Website:</strong> A functional e-commerce site built with the MERN stack.</li>
+            </ul>
+        </section>
 
-    <section id="projects">
-        <h1>Projects</h1>
-        <ul>
-            <li>Automatic Student Attendance System</li>
-            <li>Product Store Website</li>
-        </ul>
-    </section>
+        <section class="card" id="contact-card">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:padmasanjana2003@gmail.com">padmasanjana2003@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/padma-sanjana" target="_blank">linkedin.com/in/padma-sanjana</a></p>
+        </section>
 
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <p>Email: <a href="mailto:padmasanjana2003@gmail.com">padmasanjana2003@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/padma-sanjana" target="_blank">linkedin.com/in/padma-sanjana</a></p>
-    </section>
+        <section class="card" id="resume-card">
+            <h2>Resume</h2>
+            <a href="assets/resume.pdf" class="btn" target="_blank">Download Resume</a>
+        </section>
+    </main>
 
     <footer>
         <p>© 2024 Padma Sanjana. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
+
+

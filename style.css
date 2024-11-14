@@ -1,65 +1,103 @@
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background: linear-gradient(135deg, #C8E4E3, #F1F8F8); /* Softer gradient colors */
+    color: #254E58;
+    text-align: center;
 }
 
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+    background: none;
+    color: #112D32;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #ddd;
-}
-
-.section__pic-container img {
-    width: 150px;
-    height: 150px;
+.profile-pic {
+    width: 200px; /* Increased size */
+    height: 200px; /* Increased size */
     border-radius: 50%;
+    border: 5px solid #88BDBC;
+    margin-bottom: 1rem;
 }
 
-.title {
-    font-size: 2rem;
+.profile-name {
+    font-size: 2.8rem; /* Slightly larger font */
     font-weight: bold;
+    margin: 0.5rem 0;
+    color: #112D32;
+}
+
+.profile-subtitle {
+    font-size: 1.6rem; /* Slightly larger subtitle */
+    font-weight: 300;
+    color: #4F4A41;
+}
+
+/* Card Styles */
+.card {
+    background: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    font-size: 2rem;
+    color: #254E58;
+    margin-bottom: 1rem;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
     margin: 1rem 0;
 }
 
-.btn-container .btn {
+.card ul li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-align: left;
+    transition: color 0.3s;
+}
+
+.card ul li:hover {
+    color: #112D32;
+}
+
+/* Button */
+.btn {
     display: inline-block;
-    background-color: #007BFF;
+    background-color: #112D32;
     color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
     text-decoration: none;
-    margin: 0.5rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #254E58;
 }
 
+/* Footer */
 footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
+    background: none;
+    color: #112D32;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    font-size: 0.9rem;
 }
