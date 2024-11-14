@@ -3,7 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #C8E4E3, #F1F8F8); /* Softer gradient colors */
+    background: linear-gradient(135deg, #C8E4E3, #F1F8F8);
     color: #254E58;
     text-align: center;
 }
@@ -16,22 +16,22 @@ header {
 }
 
 .profile-pic {
-    width: 200px; /* Increased size */
-    height: 200px; /* Increased size */
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #88BDBC;
     margin-bottom: 1rem;
 }
 
 .profile-name {
-    font-size: 2.8rem; /* Slightly larger font */
+    font-size: 2.8rem;
     font-weight: bold;
     margin: 0.5rem 0;
     color: #112D32;
 }
 
 .profile-subtitle {
-    font-size: 1.6rem; /* Slightly larger subtitle */
+    font-size: 1.6rem;
     font-weight: 300;
     color: #4F4A41;
 }
@@ -42,9 +42,10 @@ header {
     margin: 2rem auto;
     padding: 2rem;
     width: 90%;
-    max-width: 600px;
+    max-width: 700px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     border-radius: 15px;
+    text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -59,39 +60,15 @@ header {
     margin-bottom: 1rem;
 }
 
-.card ul {
-    list-style: none;
-    padding: 0;
-    margin: 1rem 0;
-}
-
-.card ul li {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    text-align: left;
-    transition: color 0.3s;
-}
-
-.card ul li:hover {
-    color: #112D32;
-}
-
-/* Button */
-.btn {
-    display: inline-block;
-    background-color: #112D32;
-    color: white;
-    padding: 0.8rem 2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #254E58;
-}
+/* Section-specific Card Backgrounds */
+.about-card { background: #F1F8F8; }
+.education-card { background: #E3F4F4; }
+.experience-card { background: #C8E4E3; }
+.skills-card { background: #E0F2F1; }
+.projects-card { background: #D4EFE9; }
+.certifications-card { background: #BFE6E2; }
+.contact-card { background: #DFF2F1; }
+.resume-card { background: #C8E4E3; }
 
 /* Footer */
 footer {
